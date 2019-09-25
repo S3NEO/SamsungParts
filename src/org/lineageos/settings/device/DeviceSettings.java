@@ -32,7 +32,7 @@ public class DeviceSettings extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     public static final String PREF_VIBRATION_STRENGTH = "vibration_strength";
-    public static final String VIBRATION_STRENGTH_PATH = "/sys/class/timed_output/vibrator/vtg_level";
+    public static final String VIBRATION_STRENGTH_PATH = "/sys/class/timed_output/vibrator/pwm_value";
 	
     // value of vtg_min and vtg_max
     public static final int MIN_VIBRATION = 10;
